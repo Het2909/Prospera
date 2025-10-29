@@ -1,0 +1,114 @@
+/* Basic Reset and Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif; /* A common, clear font */
+    margin: 0;
+    /* padding: 0; */
+    background-color: #f8f9fe; /* Very light blue/off-white background */
+    color: #333;
+}
+
+.container {
+  margin-top: 10%;
+    max-width: 1140px; /* Standard container width */
+    /* margin: 0 auto; Center the container */
+    padding: 0;
+}
+
+/* Leadership Section Styling */
+.leadership-section {
+    /* padding: 80px 0; Vertical padding */
+    text-align: center;
+}
+
+/* Section Header Styling */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50; /* Darker color for prominence */
+    margin-bottom: 10px;
+}
+
+.section-description {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    font-size: 1rem;
+    color: #888;
+    line-height: 1.6;
+}
+
+/* Team Grid (Flexbox Container) */
+.team-grid {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 30px; /* Space between the cards */
+    padding: 0 ; /* Ensure content doesn't touch screen edges on smaller devices */
+}
+
+/* Individual Team Member Card Styling */
+.team-member {
+    flex-basis: 33.33%; /* Each card takes up roughly a third of the space */
+    max-width: 300px;
+    text-align: center;
+}
+
+.member-photo {
+    width: 100%;
+    /* Keep the aspect ratio consistent (1:1 for a square frame) */
+    padding-bottom: 100%; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px; /* Optional: Slight rounding on the image container */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow around the photo */
+}
+
+.member-photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block;
+}
+
+.member-name {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.member-title {
+    font-size: 0.95rem;
+    color: #7f8c8d; /* Lighter color for the title/role */
+    margin: 0;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 992px) {
+    .team-grid {
+        flex-wrap: wrap; /* Allow members to wrap onto the next line */
+    }
+
+    .team-member {
+        flex-basis: 45%; /* Two members per row on medium screens */
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .team-grid {
+        flex-direction: column; /* Stack members vertically on small screens */
+        align-items: center; /* Center the stacked items */
+    }
+
+    .team-member {
+        flex-basis: 100%;
+        max-width: 80%; /* Limit card width on very small screens */
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}

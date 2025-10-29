@@ -1,0 +1,127 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Services Section */
+.services-section {
+  position: relative;
+  background: url('https://cdn-cchkmpj.nitrocdn.com/CJXGnJvCvbQYOSNVvxpLvOYcHhpJDKbH/assets/images/optimized/rev-994e8f5/ossisto.com/wp-content/uploads/2024/04/What-is-Business-Service-Management.webp') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* Dark overlay */
+.services-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 50, 0.6);
+  z-index: 1;
+}
+
+/* Text content */
+.services-section .content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.services-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.services-section h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.services-section p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6ff;
+  color: #1b1b3a;
+}
+
+/* Section container */
+.help-section {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.help-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1b1b3a;
+}
+
+.help-section .subtitle {
+  max-width: 800px;
+  margin: 20px auto 60px;
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Grid layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Service Card */
+.service-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 40px 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon */
+.service-card i {
+  font-size: 30px;
+  color: #4e5dff;
+  margin-bottom: 15px;
+}
+
+/* Title */
+.service-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1b1b3a;
+}
+
+/* Paragraph */
+.service-card p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}

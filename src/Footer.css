@@ -1,0 +1,187 @@
+/* Basic Reset and Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fe; /* Light background for the overall page */
+}
+
+/* Footer Container and Background */
+.main-footer {
+    background-color: #2c324c; /* Dark blue/purple background */
+    color: #f4f4f8; /* Light text color for contrast */
+    padding-top: 60px;
+    font-size: 0.95rem;
+}
+
+/* Inner Footer Layout (Grid or Flexbox) */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 40px; /* Padding for the main content columns */
+    display: flex;
+    flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+    justify-content: space-between;
+}
+
+.footer-column {
+    /* Base width for all columns */
+    padding: 0 15px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+/* Column Widths (Adjusting based on content size) */
+.agency-info {
+    flex-basis: 30%; /* Larger space for the logo/description */
+    min-width: 250px;
+}
+
+.footer-column:not(.agency-info) {
+    flex-basis: 18%; /* Smaller, equal space for the link columns */
+    min-width: 150px;
+}
+
+.contact-info {
+    flex-basis: 25%; /* Slightly more space for contact info */
+    min-width: 200px;
+}
+
+/* Logo Styling */
+.footer-logo {
+    margin-bottom: 25px;
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.agency {
+    color: #7279a8; /* Slightly lighter shade for the "AGENCY" part */
+}
+
+/* Text and Link Styles */
+.agency-description {
+    line-height: 1.6;
+    color: #9ea4bb; /* Subtler color for descriptive text */
+}
+
+.column-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.contact-details a,
+.contact-details p {
+    color: #9ea4bb; /* Light gray for links and contact text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.contact-details a:hover {
+    color: #ffffff; /* White on hover */
+}
+
+/* Contact Info Specific Styles */
+.contact-details p {
+    margin: 0 0 10px 0;
+    line-height: 1.6;
+}
+
+/* Social Media Icons */
+.social-links {
+    margin-top: 25px;
+}
+
+.social-links a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #7279a8; /* Hover color */
+}
+
+/* Copyright Bar */
+.copyright-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 20px 0;
+    background-color: #242940; /* Slightly darker bottom bar */
+}
+
+.copyright-bar p {
+    margin: 0;
+    color: #9ea4bb;
+    font-size: 0.85rem;
+}
+
+/* Media Query for Responsiveness (Tablet and smaller) */
+@media (max-width: 992px) {
+    .agency-info {
+        flex-basis: 100%; /* Agency info takes full width */
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .social-links {
+        margin-top: 15px;
+    }
+
+    .footer-column:not(.agency-info) {
+        flex-basis: 33%; /* Remaining columns show 3 in a row */
+        padding: 0 10px;
+        min-width: unset;
+    }
+}
+
+/* Media Query for Responsiveness (Mobile) */
+@media (max-width: 576px) {
+    .footer-container {
+        flex-direction: column; /* Stack all columns vertically */
+        padding-bottom: 20px;
+    }
+
+    .footer-column:not(.agency-info) {
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .column-title {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .agency-info {
+        margin-bottom: 20px;
+    }
+
+    .social-links {
+        text-align: center;
+    }
+
+    .footer-links li {
+        margin-bottom: 5px;
+    }
+}
