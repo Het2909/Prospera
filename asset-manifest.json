@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Prospera/static/css/main.7028a407.css",
+    "main.js": "/Prospera/static/js/main.6b919517.js",
+    "static/js/453.60da827c.chunk.js": "/Prospera/static/js/453.60da827c.chunk.js",
+    "static/media/logo.png": "/Prospera/static/media/logo.85a0b84579be3d628b0c.png",
+    "index.html": "/Prospera/index.html",
+    "main.7028a407.css.map": "/Prospera/static/css/main.7028a407.css.map",
+    "main.6b919517.js.map": "/Prospera/static/js/main.6b919517.js.map",
+    "453.60da827c.chunk.js.map": "/Prospera/static/js/453.60da827c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7028a407.css",
+    "static/js/main.6b919517.js"
+  ]
+}
