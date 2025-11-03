@@ -4,22 +4,28 @@ import "./HeroSection.css"; // external CSS for custom styles
 const HeroSection = () => {
   return (
     <div>
-    <div className="hero-section">
+    <div className="hero-section" style={{
+  backgroundImage: "url('/images/home-bg.jpg')",
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  height: "100vh",
+}}>
       
 
       {/* Hero Content */}
-      <div className="container-fluid hero-content d-flex align-items-center justify-content-between px-5">
+      <div className="container-fluid hero-content d-flex align-items-center justify-content-between">
 
         <div className="containt">
           {/* <p className="fst-italic fs-3 text-secondary mb-2">I am</p> */}
-          <h1 >
-            START<br></br> YOUR<br></br> JOURNEY<br></br> HERE...
-          </h1>
+          
         </div>
       </div>
     </div>
-
-
+  <div className="start">
+    <h1 >
+            START YOUR JOURNEY HERE...
+          </h1>
+    </div>
 
     {/* // help section */}
     <section className="help-section py-5 text-center">

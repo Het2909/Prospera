@@ -13,7 +13,7 @@ import Register from './Register';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/Prospera'>
       <Header></Header>
         <Routes>
           <Route path="/" element={ <HeroSection /> } />

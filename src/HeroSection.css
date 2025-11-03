@@ -5,6 +5,14 @@
   /* border: 2px solid black; */
 }
 
+/* ensure hero starts at the very top (no gap) */
+.hero-section {
+  margin-top: -1%;
+  background-position: top center;
+  /* border: 2px solid black; */
+  
+}
+
 
 .containt {
   /* Make the element span the full viewport width even when inside a padded container */
@@ -14,10 +22,10 @@
   margin-right: calc(50% - 50vw);
   min-height: 60vh;
   height: 750px;
-  background: url('https://cdn.prod.website-files.com/65a76d9e077dcaf8d1b98fd3/68e64a5e56f0668b8ffa27b7_main-image.jpg') center/cover no-repeat;
-  background-size: cover;
-  border: none;
-  margin-top: -2.8%;
+  /* background: url('https://static.vecteezy.com/system/resources/previews/025/054/749/non_2x/modern-office-design-with-bright-computer-monitor-and-illuminated-keyboard-generated-by-ai-free-photo.jpg') center/cover no-repeat; */
+  /* background-size: cover; */
+  background: url(images/logo-final.PNG) center/cover no-repeat;
+  margin-top: -3%;
   overflow: hidden;
 }
 
@@ -30,14 +38,12 @@
   z-index: 0;
 }
 
-.containt h1 {
+.start h1 {
   position: absolute;
-  top: 50%;
-  left: 12%;
-  transform: translateY(-50%);
+  top: 85%;
+  left: 20%;
   font-size: clamp(2rem, 6vw, 4.5rem);
-  color: #ffffff;
-  text-align: left;
+  color: black;
   font-family: Georgia, serif;
   line-height: 1.05;
   z-index: 1;
@@ -76,7 +82,7 @@
 
 /* help section */
 .help-section {
-    margin-top: 1%;
+    margin-top: -12%;
   background-color: #f5f7ff;
 }
 

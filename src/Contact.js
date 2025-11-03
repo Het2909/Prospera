@@ -9,16 +9,29 @@ function Contact() {
 
   const data = { name, email, message }
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    fetch('http://localhost:5000/users', {
-      method: 'POST',
-      headers:{'Content-Type':'application/json'},
-      body:JSON.stringify( {data} )})
-    .then(response => {
-      if (response.ok) {
-    alert('Message sent (demo)');}})
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  try {
+    const response = await fetch("http://127.0.0.1:8000/api/contact/submit/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: form.name,
+        email: form.email,
+        message: form.message,
+      }),
+    });
+    const data = await response.json();
+    if (response.ok) {
+      setStatus(data.message);
+    } else {
+      setStatus("Something went wrong!");
+    }
+  } catch (err) {
+    console.error(err);
+    setStatus("Server error.");
   }
+};
 
   return (
     <div>

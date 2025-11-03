@@ -9,7 +9,7 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin-top: -1% ;
     padding: 0 15px;
 }
 
@@ -23,7 +23,7 @@ body {
     text-align: center;
     color: #ffffff;
     z-index: 1; /* Ensure text is above the overlay */
-    /* margin-top: 1%; */
+    margin-top: -1%;
     height: 30vw;
 }
 
