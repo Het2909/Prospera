@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/Prospera/static/css/main.7a46bedb.css",
-    "main.js": "/Prospera/static/js/main.042549b7.js",
+    "main.js": "/Prospera/static/js/main.54ef6636.js",
     "static/js/453.60da827c.chunk.js": "/Prospera/static/js/453.60da827c.chunk.js",
     "static/media/logo-final.PNG": "/Prospera/static/media/logo-final.de28078f43592d650290.PNG",
     "static/media/logo.png": "/Prospera/static/media/logo.85a0b84579be3d628b0c.png",
+    "static/media/contact-avatar-icon-free-png.webp": "/Prospera/static/media/contact-avatar-icon-free-png.fd6fa4dfeebbb2606799.webp",
     "index.html": "/Prospera/index.html",
     "main.7a46bedb.css.map": "/Prospera/static/css/main.7a46bedb.css.map",
-    "main.042549b7.js.map": "/Prospera/static/js/main.042549b7.js.map",
+    "main.54ef6636.js.map": "/Prospera/static/js/main.54ef6636.js.map",
     "453.60da827c.chunk.js.map": "/Prospera/static/js/453.60da827c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a46bedb.css",
-    "static/js/main.042549b7.js"
+    "static/js/main.54ef6636.js"
   ]
 }
