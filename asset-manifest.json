@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Prospera/static/css/main.5eeacea9.css",
-    "main.js": "/Prospera/static/js/main.1ab00517.js",
+    "main.css": "/Prospera/static/css/main.bee93b88.css",
+    "main.js": "/Prospera/static/js/main.10986a7f.js",
     "static/js/453.60da827c.chunk.js": "/Prospera/static/js/453.60da827c.chunk.js",
     "static/media/logo-final.PNG": "/Prospera/static/media/logo-final.de28078f43592d650290.PNG",
-    "static/media/logo.png": "/Prospera/static/media/logo.85a0b84579be3d628b0c.png",
+    "static/media/Screenshot 2025-11-05 104451.png": "/Prospera/static/media/Screenshot 2025-11-05 104451.57f2157f3cce48a2d536.png",
     "static/media/contact-avatar-icon-free-png.webp": "/Prospera/static/media/contact-avatar-icon-free-png.fd6fa4dfeebbb2606799.webp",
     "index.html": "/Prospera/index.html",
-    "main.5eeacea9.css.map": "/Prospera/static/css/main.5eeacea9.css.map",
-    "main.1ab00517.js.map": "/Prospera/static/js/main.1ab00517.js.map",
+    "main.bee93b88.css.map": "/Prospera/static/css/main.bee93b88.css.map",
+    "main.10986a7f.js.map": "/Prospera/static/js/main.10986a7f.js.map",
     "453.60da827c.chunk.js.map": "/Prospera/static/js/453.60da827c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eeacea9.css",
-    "static/js/main.1ab00517.js"
+    "static/css/main.bee93b88.css",
+    "static/js/main.10986a7f.js"
   ]
 }
